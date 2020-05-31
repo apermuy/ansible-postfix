@@ -1,0 +1,13 @@
+---
+email: user@example.com
+hostname: host
+hostname_fqdn: host.example.com
+# Paquetes
+packages: [mailutils, postfix]
+
+
+# Datos configuración proveedor
+## relayhost. Formato smtp.example.com:587 | smtp.example.com | smtp.example.com:465
+relayhost: smtp.example.com
+user: user
+password: password
