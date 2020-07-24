@@ -1,5 +1,7 @@
 ---
   - hosts: hosts
-    remote_user: root
+    remote_user: user
+    become: yes
+    become_user: root
     roles:
       - postfix
